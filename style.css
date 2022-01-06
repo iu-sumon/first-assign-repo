@@ -2,17 +2,22 @@ boby
 {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+    
 }
 #first-header
 {
   
      padding-left: 5px;
+      font-weight: 300;
+      font-size: 35px;
 
 }
 #second-header
 {
  
     padding-left: 5px;
+    font-weight: 300;
+    font-size: 35px;
 
 }
 .span
@@ -31,7 +36,12 @@ boby
     background-image: linear-gradient(blueviolet,cyan);
 
 }
-#top-header
+.first-image
+{
+    width: 50%;
+
+}
+ #top-header
 {
     border-left:4px solid blueviolet;
     
@@ -60,6 +70,7 @@ boby
   {   
       font-size: 20px;
      text-align: justify;
+     font-weight: 400;
   }
   #photo-one
   {   
@@ -68,7 +79,17 @@ boby
       height:70%; 
        
   }
-  .middle-header
+  #photo-two
+  {
+      
+      width: 600px;
+      margin-top: 20px;
+      padding-left: 20px;
+      padding-top: 10px;
+      border-radius:70px
+      
+  }
+ .middle-header
   {
       text-align: center;
       font-size:50px;
@@ -88,9 +109,6 @@ boby
            border-radius: 20px;
            padding-left: 5px;
            padding-right: 5px;
-        
-       
-      
   }
   #part-two
   {  background-image:url(6qx9J7.png);
@@ -112,10 +130,30 @@ boby
         width: 30%;
  
   }
-
-
   .illustrator
-  {
+  {  
+     padding-left:140px;
      width: 150px;
-
+     
+  }
+  .dream
+  {
+      text-align: center;
+  }
+  .section-third
+  {
+      display: flex;
+      flex-direction: row;
+      
+  }
+  .third-paragraph
+  {   
+      padding-top:80px;
+      padding-left: 10%;
+      padding-right: 10%;
+  }
+  .fourth-section
+  {
+    display: flex;
+    flex-direction: row-reverse;
   }
